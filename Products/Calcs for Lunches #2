@@ -1,0 +1,610 @@
+> ###
+> svytotal(
++ 	~one ,
++ childpov_wL16)
+      total     SE
+one 8507112 190998
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free16)
+       total     SE
+one 12772326 209630
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced16)
+      total    SE
+one 1423917 71306
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL15)
+      total     SE
+one 9097448 193529
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free15)
+       total     SE
+one 13352086 205155
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced15)
+      total    SE
+one 1744436 87619
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL14)
+      total     SE
+one 8767151 194922
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free14)
+       total     SE
+one 13172772 223464
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced14)
+      total    SE
+one 1506699 70316
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL13)
+      total     SE
+one 9071311 184967
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free13)
+       total     SE
+one 13348048 198602
+> 
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced13)
+      total    SE
+one 1552660 68162
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL12)
+      total     SE
+one 9233343 168484
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free12)
+       total     SE
+one 13794722 186964
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced12)
+      total    SE
+one 1639090 84151
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL11)
+      total     SE
+one 8635875 163403
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free11)
+       total     SE
+one 12689611 202666
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced11)
+      total    SE
+one 1312490 66413
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL10)
+      total     SE
+one 8122436 165801
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free10)
+       total     SE
+one 12049498 191382
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced10)
+      total    SE
+one 1460806 67927
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL9)
+      total     SE
+one 7217077 150496
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free9)
+       total     SE
+one 10892330 172523
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced9)
+      total    SE
+one 1530469 75717
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL8)
+      total     SE
+one 6814391 162675
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free8)
+       total     SE
+one 10396710 185080
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced8)
+      total    SE
+one 1319473 69272
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL7)
+      total     SE
+one 6506166 154774
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free7)
+       total     SE
+one 10136035 175601
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced7)
+      total    SE
+one 1380684 66927
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL6)
+      total     SE
+one 6615052 154893
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free6)
+      total     SE
+one 9984467 171914
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced6)
+      total    SE
+one 1454178 69325
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov_wL5)
+      total     SE
+one 6716350 158011
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_free5)
+       total     SE
+one 10178666 172762
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_wL_reduced5)
+      total    SE
+one 1336904 63326
+> childpov16 <-subset( 
++ 		y16 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4
++ 		)
+> 
+> childpov_free16 <-subset( 
++ 		y16 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced16 <-subset( 
++ 		y16 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> 
+> childpov15 <-subset( 
++ 		y15 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4
++ 		)
+> 
+> childpov_free15 <-subset( 
++ 		y15 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced15 <-subset( 
++ 		y15 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> 
+> childpov14 <-subset( 
++ 		y14 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free14 <-subset( 
++ 		y14 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced14 <-subset( 
++ 		y14 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov13 <-subset( 
++ 		y13 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free13 <-subset( 
++ 		y13 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced13 <-subset( 
++ 		y13 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov12 <-subset( 
++ 		y12 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free12 <-subset( 
++ 		y12 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced12 <-subset( 
++ 		y12 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> 
+> childpov11 <-subset( 
++ 		y11 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free11 <-subset( 
++ 		y11 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced11 <-subset( 
++ 		y11 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov10 <-subset( 
++ 		y10 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free10 <-subset( 
++ 		y10 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced10 <-subset( 
++ 		y10 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov9 <-subset( 
++ 		y9 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free9 <-subset( 
++ 		y9 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced9 <-subset( 
++ 		y9 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov8 <-subset( 
++ 		y8 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free8 <-subset( 
++ 		y8 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced8 <-subset( 
++ 		y8 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov7 <-subset( 
++ 		y7 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free7 <-subset( 
++ 		y7 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced7 <-subset( 
++ 		y7 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> childpov6 <-subset( 
++ 		y6 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free6 <-subset( 
++ 		y6 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced6 <-subset( 
++ 		y6 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> 
+> childpov5 <-subset( 
++ 		y5 , 
++   a_age < 19& a_age >= 5 
++ 	& povll < 4)
+> 
+> childpov_free5 <-subset( 
++ 		y5 , 
++ 	 a_age < 19& a_age >= 5 & povll < 6)
+> 
+> childpov_reduced5 <-subset( 
++ 		y5 , 
++ 	 a_age < 19& a_age >= 5 & povll < 7 & povll > 5)
+> 
+> 
+> ###
+> svytotal(
++ 	~one ,
++ childpov16)
+       total     SE
+one 11201019 217789
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free16)
+       total     SE
+one 17802360 240553
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced16)
+      total    SE
+one 2804711 98852
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov15)
+       total     SE
+one 11836645 205329
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free15)
+       total     SE
+one 18143734 224518
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced15)
+      total     SE
+one 3210893 120361
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov14)
+       total     SE
+one 11444991 207046
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free14)
+       total     SE
+one 18031486 225277
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced14)
+      total    SE
+one 3016660 92003
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov13)
+       total     SE
+one 12199734 217396
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free13)
+       total     SE
+one 18836860 231258
+> 
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced13)
+      total     SE
+one 3261609 110871
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov12)
+       total     SE
+one 12096954 189324
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free12)
+       total     SE
+one 18984126 212315
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced12)
+      total     SE
+one 3037066 108222
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov11)
+       total     SE
+one 12081064 177160
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free11)
+       total     SE
+one 18527039 212937
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced11)
+      total    SE
+one 2819756 99853
+> 
+> svytotal(
++ 	~one ,
++ childpov10)
+       total     SE
+one 11359916 190317
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free10)
+       total     SE
+one 17693004 223697
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced10)
+      total     SE
+one 3141526 105435
+> 
+> svytotal(
++ 	~one ,
++ childpov9)
+       total     SE
+one 10442016 173988
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free9)
+       total     SE
+one 16822810 197422
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced9)
+      total    SE
+one 2993771 96342
+> 
+> svytotal(
++ 	~one ,
++ childpov8)
+      total     SE
+one 9883210 189449
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free8)
+       total     SE
+one 16150996 214105
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced8)
+      total    SE
+one 2907852 94539
+> 
+> svytotal(
++ 	~one ,
++ childpov7)
+      total     SE
+one 9555856 165717
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free7)
+       total     SE
+one 15750737 200523
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced7)
+      total    SE
+one 2913178 95203
+> 
+> svytotal(
++ 	~one ,
++ childpov6)
+      total     SE
+one 9823895 171362
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free6)
+       total     SE
+one 15627818 192680
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced6)
+      total     SE
+one 3105070 110649
+> 
+> 
+> svytotal(
++ 	~one ,
++ childpov5)
+      total     SE
+one 9997107 166071
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_free5)
+       total     SE
+one 15737520 182224
+> 
+> svytotal(
++ 	~one ,
++ 	childpov_reduced5)
+      total    SE
+one 3075086 96681
+> y9$mse <- TRUE
